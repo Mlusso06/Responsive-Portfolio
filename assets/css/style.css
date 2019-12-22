@@ -2,7 +2,8 @@
 
 header {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 100%;
+    /* width: auto; */
+    box-sizing: border-box;
     background-color: #ffffff;
     border-color: #cccccc;
     border-width: 2px;
@@ -313,4 +314,32 @@ input[type=submit]:hover {
 .imgBox4 .btn1:hover {
     background-color: aqua;
     color: bisque;
+}
+
+/* adding media query */
+
+@media screen and (max-width: 980px) {
+    .h4 {
+        margin-right: 20px;
+    }
+    .header {
+        position: static;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .contentBox .contentBox2 .contentBox3 {
+        width: 760px;
+
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .contentBox .contentBox2 .contentBox3 {
+        width: 638px;
+
+    }
+
+
 }
