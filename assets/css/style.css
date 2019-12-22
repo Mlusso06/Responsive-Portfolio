@@ -1,0 +1,316 @@
+/* build a boarder to include my name and the links to the other pages */
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 100%;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-width: 2px;
+    height: 65px;
+}
+
+/*addin background color / image to the page */
+
+body {
+    background-image: url("../images/gravel.png");
+}
+
+/* adding some css to the ID myName, and locating the box in the right location */
+
+#myName {
+    position: relative;
+    left: -380px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 1.5em;
+    background: #4aaaa5;
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+    margin: auto;
+}
+
+/* adding a container to hold the image and text about me */
+
+.contentBox {
+    width: 960px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 100px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+
+/* adding a container to hold the forms for contacts */
+
+.contentBox2 {
+    width: 960px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+    background-color: #ffffff;
+    height: 485px;
+}
+
+/* adding a container to hold links to my portfolio items */
+
+.contentBox3 {
+    position: relative;
+    min-height: 80vh;
+    width: 960px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+
+/* Locating the links to the right side of the page */
+
+h4 {
+    position: fixed;
+    top: 35px;
+    right: 280px;
+}
+
+/* removed the undlerline and have the links Inline with each other */
+
+a {
+    text-decoration: none;
+    display: inline;
+}
+
+#aboutMe {
+    Padding: 1px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#portfolio {
+    Padding: 1px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#contact {
+    Padding: 1px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: "Georgia", Times, Times New Roman, serif;
+    font-size: 5.5em;
+    font-weight: 800;
+}
+
+img {
+    float: left;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.pcontent {
+    color: #777777;
+    padding: 5px;
+    text-align: left;
+    font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+input[type=text], select {
+    clear: both;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #037771;
+}
+
+.footPg1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    color: #eee;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+#foot {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    text-align: center;
+    bottom: 10px;
+    color: #eee;
+}
+
+.imgBox {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+}
+
+.imgBox .btn1 {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.imgBox .btn1:hover {
+    background-color: aqua;
+    color: bisque;
+}
+
+#imgOne {
+    border-radius: 1rem;
+    border: #ccc solid 1px;
+}
+
+#imgTwo {
+    border-radius: 1rem;
+    border: #ccc solid 1px;
+}
+
+.imgBox2 {
+    position: absolute;
+    top: 35%;
+    left: 1%;
+}
+
+.imgBox2 .btn1 {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.imgBox2 .btn1:hover {
+    background-color: aqua;
+    color: bisque;
+}
+
+#imgThree {
+    border-radius: 1rem;
+    border: #ccc solid 1px;
+}
+
+.imgBox3 {
+    position: absolute;
+    top: 60%;
+    left: 1%;
+}
+
+.imgBox3 .btn1 {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.imgBox3 .btn1:hover {
+    background-color: aqua;
+    color: bisque;
+}
+
+#imgFour {
+    border-radius: 1rem;
+    border: #ccc solid 1px;
+}
+
+.imgBox4 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.imgBox4 .btn1 {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.imgBox4 .btn1:hover {
+    background-color: aqua;
+    color: bisque;
+}
