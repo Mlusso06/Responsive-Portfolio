@@ -1,13 +1,28 @@
+@import url("reset.css");
+
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+
 /* build a boarder to include my name and the links to the other pages */
 
 header {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    /* width: auto; */
-    box-sizing: border-box;
+    width: 100%;
+   
     background-color: #ffffff;
     border-color: #cccccc;
     border-width: 2px;
-    height: 65px;
+    height: auto;
+    clear: both;
+    margin: 0 auto;
+
 }
 
 /*addin background color / image to the page */
@@ -20,7 +35,7 @@ body {
 
 #myName {
     position: relative;
-    left: -380px;
+    left: -390px;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 1.5em;
@@ -34,9 +49,10 @@ body {
 /* adding a container to hold the image and text about me */
 
 .contentBox {
-    width: 960px;
-    height: 500px;
-    margin: auto;
+    position: relative;
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
     padding: 10px;
     margin-top: 100px;
     border-style: solid;
@@ -48,16 +64,16 @@ body {
 /* adding a container to hold the forms for contacts */
 
 .contentBox2 {
-    width: 960px;
+    max-width: 960px;
     padding: 10px;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 100px;
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
     background-color: #ffffff;
-    height: 485px;
+    height: auto;
 }
 
 /* adding a container to hold links to my portfolio items */
@@ -65,7 +81,7 @@ body {
 .contentBox3 {
     position: relative;
     min-height: 80vh;
-    width: 960px;
+   max-width: 960px;
     padding: 10px;
     margin: auto;
     margin-top: 15px;
@@ -318,28 +334,41 @@ input[type=submit]:hover {
 
 /* adding media query */
 
-@media screen and (max-width: 980px) {
-    .h4 {
+@media only screen and (max-width: 980px) {
+    h4 {
         margin-right: 20px;
     }
-    .header {
+    header {
         position: static;
+        clear: both;
+        margin: 0 auto;
+        width: 100%;
+
     }
 
 }
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .contentBox .contentBox2 .contentBox3 {
         width: 760px;
 
     }
+    header {
+        width: 100%;
+        clear:  both;
+        margin: 0 auto;
+    }
 
 }
 
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
     .contentBox .contentBox2 .contentBox3 {
         width: 638px;
 
     }
-
+    header {
+        width: 100%;
+        clear:  both;
+        margin: 0 auto;
+    }
 
 }
