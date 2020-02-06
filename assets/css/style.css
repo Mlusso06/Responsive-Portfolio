@@ -357,6 +357,7 @@ input[type=submit]:hover {
     border-radius: 5px;
     text-align: center;
 }
+
 .imgBox5 .btn1:hover {
     background-color: aqua;
     color: bisque;
@@ -366,12 +367,14 @@ input[type=submit]:hover {
     border-radius: 1rem;
     border: #ccc solid 1px;
 }
+
 .imgBox6 {
     position: absolute;
     top: 60%;
-    left: 38%;
+    left: 30%;
 
 }
+
 .imgBox6 .btn1 {
     position: absolute;
     top: 70%;
@@ -386,6 +389,7 @@ input[type=submit]:hover {
     border-radius: 5px;
     text-align: center;
 }
+
 .imgBox6 .btn1:hover {
     background-color: aqua;
     color: bisque;
