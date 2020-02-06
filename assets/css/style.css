@@ -332,6 +332,11 @@ input[type=submit]:hover {
     color: bisque;
 }
 
+
+#imgFive {
+    border-radius: 1rem;
+    border: #ccc solid 1px;
+}
 .imgBox5 {
     position: absolute;
     top: 35%;
@@ -353,6 +358,35 @@ input[type=submit]:hover {
     text-align: center;
 }
 .imgBox5 .btn1:hover {
+    background-color: aqua;
+    color: bisque;
+}
+
+#imgSix {
+    border-radius: 1rem;
+    border: #ccc solid 1px;
+}
+.imgBox6 {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+
+}
+.imgBox6 .btn1 {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.imgBox6 .btn1:hover {
     background-color: aqua;
     color: bisque;
 }
