@@ -16,7 +16,7 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 100%;
    
-    background-color: #ffffff;
+    background-color: #1d47bb;
     border-color: #cccccc;
     border-width: 2px;
     height: auto;
@@ -28,7 +28,7 @@ header {
 /*addin background color / image to the page */
 
 body {
-    background-image: url("../images/gravel.png");
+    background-image: url("../images/gears.jpg");
 }
 
 /* adding some css to the ID myName, and locating the box in the right location */
@@ -36,10 +36,10 @@ body {
 #myName {
     position: relative;
     left: -390px;
-    color: white;
+    color: #ffffffe7;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 1.5em;
-    background: #4aaaa5;
+    background: #2d94c4;
     padding: 20px;
     width: 180px;
     text-align: center;
@@ -58,7 +58,8 @@ body {
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
-    background-color: #ffffff;
+    background-color: #ffffffe7;
+    border-radius: 1em;
 }
 
 /* adding a container to hold the forms for contacts */
@@ -70,10 +71,11 @@ body {
     margin-top: 30px;
     margin-bottom: 100px;
     border-style: solid;
-    border-color: #dddddd;
+    border-color: #ffffffe7;
     border-width: 1px;
-    background-color: #ffffff;
+    background-color: #cccccc;
     height: auto;
+    border-radius: 1em;
 }
 
 /* adding a container to hold links to my portfolio items */
@@ -88,7 +90,8 @@ body {
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
-    background-color: #ffffff;
+    background-color: #ffffffe7;
+    border-radius: 1em;
 }
 
 /* Locating the links to the right side of the page */
@@ -104,30 +107,29 @@ h4 {
 a {
     text-decoration: none;
     display: inline;
+    color: white;
 }
 
 #aboutMe {
     Padding: 1px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
+    color: #1d47bb;
     font-size: 1.5em;
     font-weight: 600;
 }
 
 #portfolio {
     Padding: 1px;
-    color: #4aaaa5;
+    color: #1d47bb;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
     font-size: 1.5em;
     font-weight: 600;
 }
 
 #contact {
     Padding: 1px;
-    color: #4aaaa5;
+    color: #1d47bb;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
     font-size: 1.5em;
     font-weight: 600;
 }
@@ -166,7 +168,7 @@ input[type=text], select {
 
 input[type=submit] {
     width: 10%;
-    background-color: #4aaaa5;
+    background-color: #1d47bb;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -186,7 +188,7 @@ textarea {
 }
 
 input[type=submit]:hover {
-    background-color: #037771;
+    background-color: #336deb;
 }
 
 .footPg1 {
@@ -196,7 +198,7 @@ input[type=submit]:hover {
     height: 2.5rem;
     color: #eee;
     background-color: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #1d47bb;
 }
 
 #foot {
@@ -218,7 +220,7 @@ input[type=submit]:hover {
     position: absolute;
     top: 70%;
     left: 0%;
-    background-color: #4aaaa5;
+    background-color: #1d47bb;
     color: #dddddd;
     font-size: 16px;
     padding: 10px;
@@ -230,7 +232,7 @@ input[type=submit]:hover {
 }
 
 .imgBox .btn1:hover {
-    background-color: aqua;
+    background-color: #336deb;
     color: bisque;
 }
 
@@ -254,7 +256,7 @@ input[type=submit]:hover {
     position: absolute;
     top: 70%;
     left: 0%;
-    background-color: #4aaaa5;
+    background-color: #1d47bb;
     color: #dddddd;
     font-size: 16px;
     padding: 10px;
@@ -266,7 +268,7 @@ input[type=submit]:hover {
 }
 
 .imgBox2 .btn1:hover {
-    background-color: aqua;
+    background-color: #336deb;
     color: bisque;
 }
 
@@ -285,7 +287,7 @@ input[type=submit]:hover {
     position: absolute;
     top: 70%;
     left: 0%;
-    background-color: #4aaaa5;
+    background-color: #1d47bb;
     color: #dddddd;
     font-size: 16px;
     padding: 10px;
@@ -297,7 +299,7 @@ input[type=submit]:hover {
 }
 
 .imgBox3 .btn1:hover {
-    background-color: aqua;
+    background-color: #336deb;
     color: bisque;
 }
 
@@ -316,7 +318,7 @@ input[type=submit]:hover {
     position: absolute;
     top: 70%;
     left: 0%;
-    background-color: #4aaaa5;
+    background-color: #1d47bb;
     color: #dddddd;
     font-size: 16px;
     padding: 10px;
@@ -328,7 +330,7 @@ input[type=submit]:hover {
 }
 
 .imgBox4 .btn1:hover {
-    background-color: aqua;
+    background-color: #336deb;
     color: bisque;
 }
 
@@ -347,7 +349,7 @@ input[type=submit]:hover {
     position: absolute;
     top: 70%;
     left: 0%;
-    background-color: #4aaaa5;
+    background-color: #1d47bb;
     color: #dddddd;
     font-size: 16px;
     padding: 10px;
@@ -359,7 +361,7 @@ input[type=submit]:hover {
 }
 
 .imgBox5 .btn1:hover {
-    background-color: aqua;
+    background-color: #336deb;
     color: bisque;
 }
 
@@ -379,7 +381,7 @@ input[type=submit]:hover {
     position: absolute;
     top: 70%;
     left: 0%;
-    background-color: #4aaaa5;
+    background-color: #1d47bb;
     color: #dddddd;
     font-size: 16px;
     padding: 10px;
@@ -391,7 +393,7 @@ input[type=submit]:hover {
 }
 
 .imgBox6 .btn1:hover {
-    background-color: aqua;
+    background-color: #336deb;
     color: bisque;
 }
 /* adding media query */
