@@ -1,28 +1,20 @@
 @import url("reset.css");
-
-
 * {
-
     box-sizing: border-box;
     margin: 0;
-
 }
-
-
 
 /* build a boarder to include my name and the links to the other pages */
 
 header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 100%;
-   
     background-color: #1d47bb;
     border-color: #cccccc;
     border-width: 2px;
     height: auto;
     clear: both;
     margin: 0 auto;
-
 }
 
 /*addin background color / image to the page */
@@ -47,41 +39,49 @@ body {
 }
 
 /* Link info for the link to the company I work for  */
+
 a:link#fortive {
     color: green;
     background-color: transparent;
     text-decoration: none;
-} 
+}
+
 a:visited#fortive {
     color: green;
     background-color: transparent;
     text-decoration: none;
 }
+
 a:hover#fortive {
     color: red;
     background-color: transparent;
     text-decoration: underline;
 }
+
 a:active#fortive {
     color: blue;
     background-color: transparent;
     text-decoration: underline;
 }
+
 a:link#Hny {
     color: red;
     background-color: transparent;
     text-decoration: none;
-} 
+}
+
 a:visited#Hny {
     color: red;
     background-color: transparent;
     text-decoration: none;
 }
+
 a:hover#Hny {
     color: blue;
     background-color: transparent;
     text-decoration: underline;
 }
+
 a:active#Hny {
     color: black;
     background-color: transparent;
@@ -125,7 +125,7 @@ a:active#Hny {
 .contentBox3 {
     position: relative;
     min-height: 80vh;
-   max-width: 960px;
+    max-width: 960px;
     padding: 10px;
     margin: auto;
     margin-top: 15px;
@@ -376,17 +376,17 @@ input[type=submit]:hover {
     color: bisque;
 }
 
-
 #imgFive {
     border-radius: 1rem;
     border: #ccc solid 1px;
 }
+
 .imgBox5 {
     position: absolute;
     top: 35%;
     left: 30%;
-
 }
+
 .imgBox5 .btn1 {
     position: absolute;
     top: 70%;
@@ -416,7 +416,6 @@ input[type=submit]:hover {
     position: absolute;
     top: 60%;
     left: 30%;
-
 }
 
 .imgBox6 .btn1 {
@@ -438,6 +437,100 @@ input[type=submit]:hover {
     background-color: #336deb;
     color: bisque;
 }
+
+#imgSvn {
+    border-radius: 1rem;
+    border: #ccc solid 1px;
+}
+
+.imgBox7 {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+
+.imgBox7 .btn1 {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    background-color: #1d47bb;
+    color: #dddddd;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.imgBox7 .btn1:hover {
+    background-color: #336deb;
+    color: bisque;
+}
+
+#imgEgt {
+    border-radius: 1rem;
+    border: #ccc solid 1px;
+}
+
+.imgBox8 {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+}
+
+.imgBox8 .btn1 {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    background-color: #1d47bb;
+    color: #dddddd;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.imgBox8 .btn1:hover {
+    background-color: #336deb;
+    color: bisque;
+}
+
+#imgNine {
+    border-radius: 1rem;
+    border: #ccc solid 1px;
+}
+
+.imgBox9 {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}
+
+.imgBox9 .btn1 {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    background-color: #1d47bb;
+    color: #dddddd;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.imgBox9 .btn1:hover {
+    background-color: #336deb;
+    color: bisque;
+}
+
 /* adding media query */
 
 @media only screen and (max-width: 980px) {
@@ -449,32 +542,27 @@ input[type=submit]:hover {
         clear: both;
         margin: 0 auto;
         width: 100%;
-
     }
-
 }
+
 @media only screen and (max-width: 768px) {
     .contentBox .contentBox2 .contentBox3 {
         width: 760px;
-
     }
     header {
         width: 100%;
-        clear:  both;
+        clear: both;
         margin: 0 auto;
     }
-
 }
 
 @media only screen and (max-width: 640px) {
     .contentBox .contentBox2 .contentBox3 {
         width: 638px;
-
     }
     header {
         width: 100%;
-        clear:  both;
+        clear: both;
         margin: 0 auto;
     }
-
 }
