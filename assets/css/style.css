@@ -46,6 +46,48 @@ body {
     margin: auto;
 }
 
+/* Link info for the link to the company I work for  */
+a:link#fortive {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+} 
+a:visited#fortive {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover#fortive {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active#fortive {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:link#Hny {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+} 
+a:visited#Hny {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover#Hny {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active#Hny {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 /* adding a container to hold the image and text about me */
 
 .contentBox {
